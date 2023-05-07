@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    height: 300px;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: rgb(23, 181, 160) !important;
+  }
+  .slick-dots li button {
+    display: none;
+  }
+  
+  .slick-dots li button:before {
+    background-color:  rgb(23, 181, 160) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    content: '';
+    display: block;
+  }
+  
