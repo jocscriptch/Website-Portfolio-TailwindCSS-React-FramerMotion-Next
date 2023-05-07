@@ -21,7 +21,7 @@ const contact = () => {
 
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className='pt-16'>
-          <AnimateText text="Get to know me!" className='mb-16'></AnimateText>
+          <AnimateText text="Contact With Me!" className='mb-16'></AnimateText>
           <form onSubmit={handleSubmit} className="max-w-md mx-auto dark:text-light">
             <div className="mb-4">
               <label htmlFor="name" className="block dark:text-light-500 font-bold mb-2">Name:</label>
