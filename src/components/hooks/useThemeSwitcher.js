@@ -23,7 +23,7 @@ const useThemeSwitcher = () => {
             } else {
                 let check = mediaQuery.matches ? "dark" : "light";
                 setMode(check);
-                window.localStorage.setItemt(
+                window.localStorage.setItem(
                     "theme",
                     check
                 );
